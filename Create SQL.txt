@@ -1,0 +1,34 @@
+CREATE DATABASE railway_db;
+USE railway_db;
+
+-- Train Details Table
+CREATE TABLE trains (
+    train_id INT AUTO_INCREMENT PRIMARY KEY,
+    train_name VARCHAR(100),
+    from_place VARCHAR(100),
+    to_place VARCHAR(100),
+    coach_no VARCHAR(10),
+    seat_no INT,
+    price DECIMAL(10,2)
+);
+
+-- Passenger Booking Table
+CREATE TABLE bookings (
+    pnr INT AUTO_INCREMENT PRIMARY KEY,
+    train_id INT,
+    passenger_name VARCHAR(100),
+    age INT,
+    seat_no INT UNIQUE,
+    status ENUM('Booked', 'Cancelled') DEFAULT 'Booked',
+    FOREIGN KEY (train_id) REFERENCES trains(train_id)
+);
+
+-- Waiting List Table
+CREATE TABLE waiting_list (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    train_id INT,
+    passenger_name VARCHAR(100),
+    age INT,
+    status ENUM('Waiting', 'Confirmed') DEFAULT 'Waiting',
+    FOREIGN KEY (train_id) REFERENCES trains(train_id)
+);

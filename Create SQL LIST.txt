@@ -1,0 +1,60 @@
+INSERT INTO trains (train_name, from_place, to_place, coach_no, seat_no, price) VALUES
+('Rajdhani Express', 'Delhi', 'Mumbai', 'A1', 1, 2500),
+('Rajdhani Express', 'Delhi', 'Mumbai', 'A1', 2, 2500),
+('Rajdhani Express', 'Delhi', 'Mumbai', 'A1', 3, 2500),
+('Rajdhani Express', 'Delhi', 'Mumbai', 'B1', 4, 1800),
+('Rajdhani Express', 'Delhi', 'Mumbai', 'B1', 5, 1800),
+
+('Shatabdi Express', 'Delhi', 'Amritsar', 'C1', 1, 1500),
+('Shatabdi Express', 'Delhi', 'Amritsar', 'C1', 2, 1500),
+('Shatabdi Express', 'Delhi', 'Amritsar', 'C1', 3, 1500),
+('Shatabdi Express', 'Delhi', 'Amritsar', 'C2', 4, 1200),
+('Shatabdi Express', 'Delhi', 'Amritsar', 'C2', 5, 1200),
+
+('Duronto Express', 'Mumbai', 'Kolkata', 'D1', 1, 2800),
+('Duronto Express', 'Mumbai', 'Kolkata', 'D1', 2, 2800),
+('Duronto Express', 'Mumbai', 'Kolkata', 'D1', 3, 2800),
+('Duronto Express', 'Mumbai', 'Kolkata', 'D2', 4, 2200),
+('Duronto Express', 'Mumbai', 'Kolkata', 'D2', 5, 2200),
+
+('Garib Rath Express', 'Delhi', 'Chennai', 'E1', 1, 2000),
+('Garib Rath Express', 'Delhi', 'Chennai', 'E1', 2, 2000),
+('Garib Rath Express', 'Delhi', 'Chennai', 'E1', 3, 2000),
+('Garib Rath Express', 'Delhi', 'Chennai', 'E2', 4, 1600),
+('Garib Rath Express', 'Delhi', 'Chennai', 'E2', 5, 1600),
+
+('Jammu Tawi Express', 'Jammu', 'Delhi', 'F1', 1, 1300),
+('Jammu Tawi Express', 'Jammu', 'Delhi', 'F1', 2, 1300),
+('Jammu Tawi Express', 'Jammu', 'Delhi', 'F1', 3, 1300),
+('Jammu Tawi Express', 'Jammu', 'Delhi', 'F2', 4, 1000),
+('Jammu Tawi Express', 'Jammu', 'Delhi', 'F2', 5, 1000),
+
+('Kolkata Mail', 'Kolkata', 'Mumbai', 'G1', 1, 2700),
+('Kolkata Mail', 'Kolkata', 'Mumbai', 'G1', 2, 2700),
+('Kolkata Mail', 'Kolkata', 'Mumbai', 'G1', 3, 2700),
+('Kolkata Mail', 'Kolkata', 'Mumbai', 'G2', 4, 2100),
+('Kolkata Mail', 'Kolkata', 'Mumbai', 'G2', 5, 2100),
+
+('Humsafar Express', 'Bangalore', 'Patna', 'H1', 1, 2600),
+('Humsafar Express', 'Bangalore', 'Patna', 'H1', 2, 2600),
+('Humsafar Express', 'Bangalore', 'Patna', 'H1', 3, 2600),
+('Humsafar Express', 'Bangalore', 'Patna', 'H2', 4, 2000),
+('Humsafar Express', 'Bangalore', 'Patna', 'H2', 5, 2000),
+
+('Vivek Express', 'Dibrugarh', 'Kanyakumari', 'I1', 1, 5000),
+('Vivek Express', 'Dibrugarh', 'Kanyakumari', 'I1', 2, 5000),
+('Vivek Express', 'Dibrugarh', 'Kanyakumari', 'I1', 3, 5000),
+('Vivek Express', 'Dibrugarh', 'Kanyakumari', 'I2', 4, 4200),
+('Vivek Express', 'Dibrugarh', 'Kanyakumari', 'I2', 5, 4200),
+
+('Maharaja Express', 'Delhi', 'Mumbai', 'J1', 1, 12000),
+('Maharaja Express', 'Delhi', 'Mumbai', 'J1', 2, 12000),
+('Maharaja Express', 'Delhi', 'Mumbai', 'J1', 3, 12000),
+('Maharaja Express', 'Delhi', 'Mumbai', 'J2', 4, 10000),
+('Maharaja Express', 'Delhi', 'Mumbai', 'J2', 5, 10000),
+
+('Tejas Express', 'Mumbai', 'Goa', 'K1', 1, 2200),
+('Tejas Express', 'Mumbai', 'Goa', 'K1', 2, 2200),
+('Tejas Express', 'Mumbai', 'Goa', 'K1', 3, 2200),
+('Tejas Express', 'Mumbai', 'Goa', 'K2', 4, 1800),
+('Tejas Express', 'Mumbai', 'Goa', 'K2', 5, 1800);
